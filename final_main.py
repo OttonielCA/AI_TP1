@@ -14,8 +14,13 @@ new_model = tf.keras.models.load_model('tp1.keras')
 # Show the model architecture
 new_model.summary()
 # Show the prediction asked by the teacher
+
 img = [1, 6, 3513, 10123, 43213]
 for x in img:
-    img1 = x_train[x]
+    img1 = x_test[x]
     print(new_model.predict(np.reshape(img1, (1, 28, 28))))
     show_mnist_graphic_number(img1)
+
+# Test unitaire 1
+print(new_model.predict(np.reshape(x_test[500], (1, 28, 28))))
+show_mnist_graphic_number(x_test[500])
