@@ -4,6 +4,4 @@ comprendre en surface les diverses étapes de la création du modèle (données,
 etc.), s'assurer de la qualité (tests unitaires et graphiques de performance), et utiliser le
 modèle final dans une application fonctionnelle (prédictions).
 
-Travail présenté par:
-  Ottoniel Castaneda Aguilar
-  Sean Calcé
+**Travail présenté par**: Ottoniel Castaneda Aguilar & Sean Calcé
